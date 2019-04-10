@@ -6,6 +6,8 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -16,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.ayushi.learning.automaticmedicalbox.AddMedicineActivity;
+import com.ayushi.learning.automaticmedicalbox.addmedicine.AddMedicineActivity;
 import com.ayushi.learning.automaticmedicalbox.R;
 import com.ayushi.learning.automaticmedicalbox.data.source.MedicineAlarm;
 import com.ayushi.learning.automaticmedicalbox.views.RobotoLightTextView;

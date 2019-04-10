@@ -1,4 +1,4 @@
-package com.ayushi.learning.automaticmedicalbox;
+package com.ayushi.learning.automaticmedicalbox.addmedicine;
 
 import android.os.PersistableBundle;
 import androidx.appcompat.app.ActionBar;
@@ -6,11 +6,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 
+import com.ayushi.learning.automaticmedicalbox.Injection;
+import com.ayushi.learning.automaticmedicalbox.R;
 import com.ayushi.learning.automaticmedicalbox.utils.ActivityUtils;
 
 public class AddMedicineActivity extends AppCompatActivity {
 
-    public static final int REQUEST_ADD_TASK = 1;
+    public static final int REQUEST_ADD_TASK = 1, REQUEST_EDIT_TASK = 2;
 
     public static final String SHOULD_LOAD_DATA_FROM_REPO_KEY = "SHOULD_LOAD_DATA_FROM_REPO_KEY";
 
